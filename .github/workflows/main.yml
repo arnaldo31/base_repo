@@ -49,3 +49,6 @@ jobs:
     - name: Install chromedriver
       run: |
         seleniumbase install chromedriver
+    - name: Run Sample 
+      run: python sample.py
+        
